@@ -1,0 +1,61 @@
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.book-title{
+  font-weight: bold;
+  font-size: 30px;
+}
+.book-subtitle{
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(112, 112, 112)
+}
+.book-descript{
+  margin-top: 25px;
+  font-family: Helvetica;
+  line-height: 25px;
+  width: 400px;
+  font-size: 15px;
+}
+.descript-addendum{
+  margin-top: 25px;
+  font-family: Helvetica;
+  line-height: 25px;
+  width: 400px;
+  font-size: 15px;
+}
+.book-link{
+  margin-top: 10px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  font-family: Helvetica;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.20s;
+}
+.book-link:hover{
+  background-color: rgb(210, 210, 210);
+}
+.xtra-info{
+  margin-top: 25px;
+  font-family: Helvetica;
+  line-height: 25px;
+  width: 400px;
+  font-size: 15px;
+  color: rgb(112, 112, 112);
+}
+.web-links{
+  color: rgb(112, 112, 112);
+}
+.web-links:hover{
+  cursor: pointer;
+  color: black;
+}
