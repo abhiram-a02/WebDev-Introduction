@@ -7,22 +7,22 @@
         margin-top: 0px;
         margin-bottom: 0px;
         font-family: Helvetica;
-        color: black;
+        color: green;
       }
 
-      .product-preview{
-        width: 250px;
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 15px;
+      .product-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 35px;
       }
 
-      .product-preview .product-sizes{
+      .product-preview .product-size-grid{
         transition: opacity 0.25s;
       }
 
 
-      .product-preview:hover .product-sizes{
+      .product-preview:hover .product-size-grid{
         opacity: 1;
       }
 
@@ -31,8 +31,7 @@
       }
 
       .thumbnail{
-        width: 250px;
-        display: block;
+        width: 100%;
       }
 
       .product-title{
@@ -44,49 +43,153 @@
         margin-top: 5px;
       }
 
-      .product-sizes{
+      .product-size-grid{
         margin-top: 5px;
         opacity: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 100px;
       }
 
       .indv-size{
-        display: inline-block;
         font-size: 10px;
-        margin-right: 15px;
       }
     </style>
   </head>
   <body>
-    <div class = "product-preview">
-      <div class = "thumbnail-row">
-        <img class = "thumbnail" src = "PreviewImages/ShakersTee-Top.webp">
-      </div>
-      <div class = "info-row">
-        <p class = "product-title">SHAKERS TEE</p>
-        <p class = "product-price">$45</p>
-        <div class = "product-sizes">
-          <p class = "indv-size">S</p>
-          <p class = "indv-size">M</p>
-          <p class = "indv-size">L</p>
-          <p class = "indv-size">XL</p>
-          <p class = "indv-size">XXL</p>
+    <div class = "product-grid">
+      <div class = "product-preview">
+        <div class = "thumbnail-row">
+          <img class = "thumbnail" src = "PreviewImages/ShakersTee-Top.webp">
+        </div>
+        <div class = "info-row">
+          <p class = "product-title">SHAKERS TEE</p>
+          <p class = "product-price">$45</p>
+          <div class = "product-size-grid">
+            <p class = "indv-size">S</p>
+            <p class = "indv-size">M</p>
+            <p class = "indv-size">L</p>
+            <p class = "indv-size">XL</p>
+            <p class = "indv-size">XXL</p>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class = "product-preview">
-      <div class = "thumbnail-row">
-        <img class = "thumbnail" src = "PreviewImages/RelaxTee-Top.webp">
+  
+      <div class = "product-preview">
+        <div class = "thumbnail-row">
+          <img class = "thumbnail" src = "PreviewImages/BeatSoundsTee-Top.webp">
+        </div>
+        <div class = "info-row">
+          <p class = "product-title">BEAT SOUNDS TEE PIGMENT DYED</p>
+          <p class = "product-price">$45</p>
+          <div class = "product-size-grid">
+            <p class = "indv-size">S</p>
+            <p class = "indv-size">M</p>
+            <p class = "indv-size">L</p>
+            <p class = "indv-size">XL</p>
+            <p class = "indv-size">XXL</p>
+          </div>
+        </div>
       </div>
-      <div class = "info-row">
-        <p class = "product-title">RELAX TEE</p>
-        <p class = "product-price">$45</p>
-        <div class = "product-sizes">
-          <p class = "indv-size">S</p>
-          <p class = "indv-size">M</p>
-          <p class = "indv-size">L</p>
-          <p class = "indv-size">XL</p>
-          <p class = "indv-size">XXL</p>
+  
+      <div class = "product-preview">
+        <div class = "thumbnail-row">
+          <img class = "thumbnail" src = "PreviewImages/RelaxTee-Top.webp">
+        </div>
+        <div class = "info-row">
+          <p class = "product-title">RELAX TEE</p>
+          <p class = "product-price">$45</p>
+          <div class = "product-size-grid">
+            <p class = "indv-size">S</p>
+            <p class = "indv-size">M</p>
+            <p class = "indv-size">L</p>
+            <p class = "indv-size">XL</p>
+            <p class = "indv-size">XXL</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class = "product-preview">
+        <div class = "thumbnail-row">
+          <img class = "thumbnail" src = "PreviewImages/HypnosTee-Top.webp">
+        </div>
+        <div class = "info-row">
+          <p class = "product-title">HYPNOS TEE</p>
+          <p class = "product-price">$45</p>
+          <div class = "product-size-grid">
+            <p class = "indv-size">S</p>
+            <p class = "indv-size">M</p>
+            <p class = "indv-size">L</p>
+            <p class = "indv-size">XL</p>
+            <p class = "indv-size">XXL</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class = "product-preview">
+        <div class = "thumbnail-row">
+          <img class = "thumbnail" src = "PreviewImages/CrownBandZip-Top.webp">
+        </div>
+        <div class = "info-row">
+          <p class = "product-title">CROWN BAND ZIP HOODIE</p>
+          <p class = "product-price">$45</p>
+          <div class = "product-size-grid">
+            <p class = "indv-size">S</p>
+            <p class = "indv-size">M</p>
+            <p class = "indv-size">L</p>
+            <p class = "indv-size">XL</p>
+            <p class = "indv-size">XXL</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class = "product-preview">
+        <div class = "thumbnail-row">
+          <img class = "thumbnail" src = "PreviewImages/WorldwideZip-Top.webp">
+        </div>
+        <div class = "info-row">
+          <p class = "product-title">WORLDWIDE ZIP HOODIE</p>
+          <p class = "product-price">$45</p>
+          <div class = "product-size-grid">
+            <p class = "indv-size">S</p>
+            <p class = "indv-size">M</p>
+            <p class = "indv-size">L</p>
+            <p class = "indv-size">XL</p>
+            <p class = "indv-size">XXL</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class = "product-preview">
+        <div class = "thumbnail-row">
+          <img class = "thumbnail" src = "PreviewImages/SuperiorCrew-Top.webp">
+        </div>
+        <div class = "info-row">
+          <p class = "product-title">SUPERIOR QUALITY CREW</p>
+          <p class = "product-price">$45</p>
+          <div class = "product-size-grid">
+            <p class = "indv-size">S</p>
+            <p class = "indv-size">M</p>
+            <p class = "indv-size">L</p>
+            <p class = "indv-size">XL</p>
+            <p class = "indv-size">XXL</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class = "product-preview">
+        <div class = "thumbnail-row">
+          <img class = "thumbnail" src = "PreviewImages/BasicCrew-Top.webp">
+        </div>
+        <div class = "info-row">
+          <p class = "product-title">BASIC ST&#220SSY CREW</p>
+          <p class = "product-price">$45</p>
+          <div class = "product-size-grid">
+            <p class = "indv-size">S</p>
+            <p class = "indv-size">M</p>
+            <p class = "indv-size">L</p>
+            <p class = "indv-size">XL</p>
+            <p class = "indv-size">XXL</p>
+          </div>
         </div>
       </div>
     </div>
