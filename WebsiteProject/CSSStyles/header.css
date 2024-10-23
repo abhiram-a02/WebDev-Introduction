@@ -1,0 +1,35 @@
+.header{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo-section{
+  background-color: lightgoldenrodyellow;
+  width: 125px;
+}
+
+.left-section{
+  background-color: lightslategray;
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navigation-section{
+  background-color: lightpink;
+  width: 275px;
+}
+
+.middle-section{
+  background-color: lightslategray;
+  flex: 10;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.right-section{
+  background-color: lightblue;
+  width: 225px;
+}
