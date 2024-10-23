@@ -7,19 +7,14 @@
 
 .logo-section{
   background-color: lightgoldenrodyellow;
-  width: 125px;
-}
-
-.left-section{
-  background-color: lightslategray;
-  flex: 1;
-  margin-left: 20px;
-  margin-right: 20px;
+  min-width: 125px;
 }
 
 .navigation-section{
   background-color: lightpink;
   width: 275px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .middle-section{
@@ -32,4 +27,28 @@
 .right-section{
   background-color: lightblue;
   width: 225px;
+}
+
+.sub-header{
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub-logo-section{
+  background-color: lightgoldenrodyellow;
+  min-width: 125px;
+}
+
+.sub-navigation-section{
+  background-color: lightseagreen;
+  flex: 10;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sub-right-section{
+  background-color: lightgreen;
+  width: 100px;
 }
