@@ -5,31 +5,53 @@
   </head>
   <body style = "
     height: 3000px;
-    padding-top: 60px;
-    padding-left: 60px;
+    padding-top: 90px;
+    padding-left: 90px;
   ">
     <div style = "
       background-color: black;
       color: white;
 
-      height: 50px;
+      height: 70px;
 
       position: fixed;
       top: 0px;
       left: 0px;
       right: 0px;
+
+      z-index: 1;
       ">header</div>
 
     <div style = "
       background-color: lightgreen;
 
-      width: 50px;
+      width: 70px;
       
       position: fixed;
-      top: 50px;
+      top: 70px;
       bottom: 0px;
       left: 0px;
-    ">sidebar</div>    
+    ">sidebar
+      <div style = "
+        position: absolute;
+        background-color: red;
+        color: white;
+        right: 0px;
+        top: 0px;
+      ">
+      X
+      </div>
+    </div>  
+
+    <div style = "
+      position: absolute;
+      background-color: red;
+      color: white;
+      right: 10px;
+      top: 90px;
+    ">
+    absolute
+    </div>
 
     <div style = "
       background-color: lightseagreen;
@@ -41,6 +63,17 @@
       background-color: lightsalmon;
       width: 200px;
       height: 200px;
-    ">div 2</div>
+      position: relative;
+    ">div 2
+      <div style = "
+        position: absolute;
+        background-color: black;
+        color: white;
+        right: 10px;
+        bottom: 10px;
+      ">
+        5:00
+      </div>
+    </div>
   </body>
 </html>
