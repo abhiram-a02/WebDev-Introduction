@@ -16,10 +16,30 @@
 
 .thumbnail-row{
   margin-bottom: 10px;
+  position: relative;
+}
+
+.hidden-row{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
 }
 
 .thumbnail{
   width: 100%;
+}
+
+.hidden-thumbnail{
+  width: 100%;
+}
+
+.product-preview .hidden-row{
+  transition: opacity 0.25s;
+}
+
+.product-preview:hover .hidden-row{
+  opacity: 1;
 }
 
 .product-title{
