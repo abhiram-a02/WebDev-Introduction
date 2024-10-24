@@ -1,8 +1,18 @@
 .header{
-  height: 60px;
+  height: 59px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(236, 236, 236);
+  
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 .logo-section{
@@ -40,10 +50,19 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(236, 236, 236);
+
+  position: fixed;
+  top: 60px;
+  left: 0px;
+  right: 0px;
 }
 
 .sub-logo-section{
-  background-color: lightgoldenrodyellow;
   min-width: 107.5px;
 }
 
