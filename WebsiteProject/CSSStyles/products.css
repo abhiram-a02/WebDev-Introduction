@@ -8,6 +8,12 @@
   padding-bottom: 45px;
 }
 
+@media (max-width: 1025px){
+  .product-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 .product-preview .product-size-grid-tops{
   transition: opacity 0.25s;
 }
@@ -54,12 +60,7 @@
   opacity: 1;
 }
 
-.product-title{
-  font-size: 10px;
-}
-
 .product-price{
-  font-size: 10px;
   margin-top: 5px;
 }
 
@@ -75,8 +76,4 @@
   opacity: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 130px;
-}
-
-.indv-size{
-  font-size: 10px;
 }
